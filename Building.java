@@ -109,6 +109,12 @@ public class Building {
         fordHall.goUp();
         fordHall.goDown();
         fordHall.exit();
+
+        Cafe CampusCafe = new Cafe("Campus Cafe","100 Elm Street, Northampton, MA 01063", 2);
+        CampusCafe.sellCoffee(16, 2, 1);
+        CampusCafe.sellCoffee(48, 48, 1);
+        CampusCafe.sellCoffee(12, 20, 9);
+     
     }
 
 }
